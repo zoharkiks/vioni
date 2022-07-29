@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="">Vioni</div>
       </div>
 
-      <ul className="flex items-center justify-center space-x-6 font-bold text-text md:text-sm md:space-x-10   ">
+      <ul className="hidden md:flex items-center justify-center space-x-6 font-bold text-text md:text-sm md:space-x-10   ">
         <li>
           <a href="">Services</a>
         </li>

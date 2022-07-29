@@ -7,7 +7,7 @@ import {Navbar, Footer,Hero}  from '../containers'
 
 const Home: NextPage = () => {
   return (
-    <div className='font-nunito px-6 py-9
+    <div className='font-nunito px-6 py-9 md:px-12 lg:px-36
     ' >
       <Head>
         <title>Vioni</title>
