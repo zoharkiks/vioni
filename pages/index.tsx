@@ -7,9 +7,9 @@ import {Navbar, Footer,Hero}  from '../containers'
 
 const Home: NextPage = () => {
   return (
-    <div >
+    <div className='font-nunito' >
       <Head>
-        <title>Your App Name</title>
+        <title>Vioni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
