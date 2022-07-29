@@ -11,13 +11,13 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between ">
-      <div className="flex items-center justify-center space-x-4 text-2xl font-bold">
+      <div className="flex items-center justify-center space-x-4 text-2xl font-bold text-black">
         <img src={images.logo.src} alt="" />
-        <div className="h1">Vioni</div>
+        <div className="">Vioni</div>
       </div>
       <Icon
         onClick={handleMenu}
-        className="h-8 w-8 cursor-pointer"
+        className="h-8 w-8 cursor-pointer text-black"
         icon="heroicons-solid:menu-alt-3"
       />
       {/* Toggle Menu on Mob devices */}
