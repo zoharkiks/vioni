@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="">Vioni</div>
       </div>
 
-      <ul className="hidden md:flex items-center justify-center space-x-6  text-text md:text-sm md:space-x-10 lg:text-lg  ">
+      <ul className="hidden items-center justify-center space-x-6 text-text  md:flex md:space-x-10 md:text-sm lg:text-lg  ">
         <li>
           <a href="">Services</a>
         </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
         icon="heroicons-solid:menu-alt-3"
       />
       {open && (
-        <div className="fixed right-4 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
+        <div className="fixed right-1.5 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
           <button className="absolute top-4 right-4 flex items-center justify-center ">
             <Icon
               onClick={handleMenu}
