@@ -2,5 +2,6 @@
 
 import  Button  from "./Button"
 import  Card  from "./Card"
+import  Service  from "./Service"
 
-export {Button,Card}
+export {Button,Card, Service}

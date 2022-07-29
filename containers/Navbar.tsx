@@ -38,8 +38,8 @@ const Navbar = () => {
         icon="heroicons-solid:menu-alt-3"
       />
       {open && (
-        <div className="fixed right-1.5 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
-          <button className="absolute top-4 right-4 flex items-center justify-center ">
+        <div className="fixed right-1.5 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg z-10">
+          <button className="absolute top-4 right-4 flex items-center justify-center focus:outline-none ">
             <Icon
               onClick={handleMenu}
               className="h-6 w-6 text-white"
