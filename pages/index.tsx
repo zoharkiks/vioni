@@ -8,7 +8,7 @@ import { Navbar, Footer, Hero } from "../containers";
 const Home: NextPage = () => {
   return (
     <div
-      className="px-6 py-9 font-nunito md:px-12 lg:px-36 bg-bg2 bg-opacity-5
+      className="px-6 py-9 font-nunito  bg-bg2 bg-opacity-5
     "
     >
       <Head>

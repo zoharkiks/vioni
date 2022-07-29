@@ -10,13 +10,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between  ">
+    <nav className="flex items-center justify-between md:px-12 lg:px-36  ">
       <div className="flex items-center justify-center space-x-4 text-2xl font-bold text-black">
         <img src={images.logo.src} alt="" />
         <div className="">Vioni</div>
       </div>
 
-      <ul className="hidden md:flex items-center justify-center space-x-6 font-bold text-text md:text-sm md:space-x-10   ">
+      <ul className="hidden md:flex items-center justify-center space-x-6  text-text md:text-sm md:space-x-10 lg:text-lg  ">
         <li>
           <a href="">Services</a>
         </li>
