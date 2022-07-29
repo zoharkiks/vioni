@@ -17,7 +17,6 @@ const Home: NextPage = () => {
 <Navbar/>
 <Hero/>
 <Footer/>
-<Card/>
     </div>
   )
 }
