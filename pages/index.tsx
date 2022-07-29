@@ -1,25 +1,33 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import {Card} from '../components/'
+import type { NextPage } from "next";
+import Head from "next/head";
+import { Card } from "../components/";
 
 // import components
-import {Navbar, Footer,Hero}  from '../containers'
+import { Navbar, Footer, Hero } from "../containers";
 
 const Home: NextPage = () => {
   return (
-    <div className='font-nunito px-6 py-9 md:px-12 lg:px-36
-    ' >
+    <div
+      className="px-6 py-9 font-nunito md:px-12 lg:px-36 bg-bg2 bg-opacity-5
+    "
+    >
       <Head>
         <title>Vioni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-{/* Website Sections */}
-<Navbar/>
-<Hero/>
-<Footer/>
-    </div>
-  )
-}
+<div className="">
 
-export default Home
+<Navbar />
+      <Hero />
+</div>
+     
+
+      {/* Website Sections */}
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
