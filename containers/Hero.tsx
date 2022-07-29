@@ -4,7 +4,7 @@ import { images } from "../constants";
 
 const Hero = () => {
   return (
-    <div className=" pt-14 pb-14 md:grid md:grid-cols-2 md:pl-12 lg:pl-36  ">
+    <div className=" pt-14 pb-14 md:grid md:grid-cols-2 md:pl-12 lg:pl-36 px-6  ">
       <div className="flex  flex-col items-start  justify-center ">
         <h1 className="  mb-2.5 text-4xl max-w-lg font-extrabold !leading-[150%] lg:text-6xl lg:mb-5">
           Manage Your Finance Easily
