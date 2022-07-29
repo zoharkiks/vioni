@@ -1,5 +1,5 @@
 // IF using google fonts
- import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
@@ -12,7 +12,6 @@ class MyDocument extends Document {
             href="https://fonts.gstatic.com"
             crossOrigin="true"
           />
- {/* Add google fonts here */}
           <link
             href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap"
             rel="stylesheet"
@@ -27,4 +26,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default MyDocument;

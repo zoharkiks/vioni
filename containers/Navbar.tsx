@@ -15,35 +15,53 @@ const Navbar = () => {
         <img src={images.logo.src} alt="" />
         <div className="">Vioni</div>
       </div>
+
+      <ul className="flex items-center justify-center space-x-6 font-bold text-text md:text-sm md:space-x-10   ">
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Help</a>
+        </li>
+        <li>
+          <a href="">Contact Us</a>
+        </li>
+      </ul>
+
+      {/* Toggle Menu on Mob devices */}
       <Icon
         onClick={handleMenu}
-        className="h-8 w-8 cursor-pointer text-black"
+        className="h-8 w-8 cursor-pointer text-black md:hidden"
         icon="heroicons-solid:menu-alt-3"
       />
-      {/* Toggle Menu on Mob devices */}
-      {open && (<div className="fixed right-4 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
-        <button className="absolute top-4 right-4 flex items-center justify-center ">
-          <Icon
-            onClick={handleMenu}
-            className="h-6 w-6 text-white"
-            icon="eva:close-fill"
-          />
-        </button>
-        <ul className="space-y-6 font-bold text-white">
-          <li>
-            <a href="">Services</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Help</a>
-          </li>
-          <li>
-            <a href="">Contact Us</a>
-          </li>
-        </ul>
-      </div> ) }
+      {open && (
+        <div className="fixed right-4 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
+          <button className="absolute top-4 right-4 flex items-center justify-center ">
+            <Icon
+              onClick={handleMenu}
+              className="h-6 w-6 text-white"
+              icon="eva:close-fill"
+            />
+          </button>
+          <ul className="space-y-6 font-bold text-white">
+            <li>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Help</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };
