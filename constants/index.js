@@ -1,3 +1,4 @@
 // Import all constants like images here for easy exports
-//  import ... from "..."
-// export default {}
+
+ import images from "./images"
+export  {images}

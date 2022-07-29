@@ -6,18 +6,16 @@ module.exports = {
     './containers/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    // Use custom colors
-    // colors: {
-    //   'white': '#ffffff',
-    //   'black':'#000000',
-    // },
+    colors: {
+      'white': '#ffffff',
+      'black':'#000000',
+      'primary':'#6759FF',
+      'text':'#5F626B'
+    },
     extend: {
-      // Using custom fonts
-      // fontFamily: {
-      //   worldwide: ["WorldwideHeadline", "cursive"],
-      //   blooming: ["Blooming Elegant Sans", "cursive"],
-      //   poppins: ["Poppins", 'sans-serif']
-      // },
+      fontFamily: {
+        nunito: ["Nunito", "sans-serif"],
+      },
     },
   },
   plugins: [],
