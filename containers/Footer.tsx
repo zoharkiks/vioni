@@ -35,7 +35,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-2 gap-y-12 gap-x-20  md:grid-cols-3">
           <div className="flex flex-col">
-            <ul className="space-y-6 text-lg text-text">
+            <ul className="space-y-6 text-lg text-text list-animation w-max">
               <h2 className="mb-7 text-xl font-bold text-black ">About</h2>
               <li>
                 <a href="">Services</a>
@@ -52,8 +52,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col">
-            <ul className="space-y-6 text-lg text-text">
+          <div className="flex flex-col ">
+            <ul className="space-y-6 text-lg text-text  list-animation">
               <h2 className="mb-7 text-xl font-bold text-black ">Contact</h2>
               <li>
                 <a href="">About Us</a>
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col">
-            <ul className="space-y-6 text-lg text-text">
+            <ul className="space-y-6 text-lg text-text  list-animation">
               <h2 className="mb-7 text-xl font-bold text-black ">Legals</h2>
               <li>
                 <a href="">Privacy</a>

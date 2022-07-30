@@ -10,13 +10,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="px-6 flex items-center justify-between md:px-12 lg:px-36  ">
+    <nav className="flex items-center justify-between px-6 md:px-12 lg:px-36  ">
       <div className="flex items-center justify-center space-x-4 text-2xl font-bold text-black">
         <img src={images.logo.src} alt="" />
         <div className="">Vioni</div>
       </div>
 
-      <ul className="hidden items-center justify-center space-x-6 text-text  md:flex md:space-x-10 md:text-sm lg:text-lg  ">
+      <ul className="hidden items-center justify-center space-x-6 text-text list-animation  md:flex md:space-x-10 md:text-sm lg:text-lg  ">
         <li>
           <a href="">Services</a>
         </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
         icon="heroicons-solid:menu-alt-3"
       />
       {open && (
-        <div className="fixed right-1.5 top-4 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg z-10">
+        <div className="fixed right-1.5 top-4 z-10 flex w-full max-w-sm rounded-lg bg-primary p-6 shadow-lg">
           <button className="absolute top-4 right-4 flex items-center justify-center focus:outline-none ">
             <Icon
               onClick={handleMenu}

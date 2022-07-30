@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+    .list-animation {
+      @apply child-li:rounded-lg child-li:px-0.5 hover:child-li:bg-primary hover:child-li:text-white hover:child-li:transition-all child-li:w-max
+    }
+  }
+  
