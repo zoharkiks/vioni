@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "../components";
 import { images } from "../constants";
 
-const Service = ({text,order,image}) => {
+const Service = ({text,order,image}:{text:string,order:string,image:string}) => {
   return (
     <>
       <div className="md:grid md:grid-cols-2 md:gap-x-20 ">

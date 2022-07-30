@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from '@iconify/react';
 
 
-const Card = ({text}) => {
+const Card = ({text}:{text:string}) => {
   return (
     <>
     <div className="  flex flex-col justify-center items-center  py-12 px-6 space-y-10 rounded-[30px] bg-white max-w-[90%] drop-shadow-lg ">
