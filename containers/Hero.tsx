@@ -13,7 +13,9 @@ const Hero = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing Nunc in turpis
           hendrerit pellentesque.
         </p>
-        <Button text="Register Now" />
+        <Button text="Register Now"
+        textColor='text-white'
+        bgColor='bg-primary' />
       </div>
       <div className="mt-16  flex items-center justify-center md:mt-0 ">
         <img className=" w-full object-contain " src={images.hero.src} alt="" />

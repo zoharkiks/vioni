@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Service } from "../components";
+import { Card, Newsletter, Service } from "../components";
 import { images } from "../constants";
 
 const Services = () => {
@@ -12,7 +12,7 @@ const Services = () => {
       <Card text="Secure" />
       </div>
 
-      <div className=" space-y-32 flex flex-col mt-24 lg:mt-48">
+      <div className=" space-y-32 flex flex-col mt-24 lg:mt-48 mb-28">
 
         <Service text='World-Class Ecosystem'
         order='first'
@@ -27,6 +27,9 @@ const Services = () => {
         image={images.feature3.src} />
          
       </div>
+
+  <Newsletter/>
+  
     </div>
     
   );

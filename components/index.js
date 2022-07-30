@@ -3,5 +3,6 @@
 import  Button  from "./Button"
 import  Card  from "./Card"
 import  Service  from "./Service"
+import  Newsletter  from "./Newsletter"
 
-export {Button,Card, Service}
+export {Button,Card, Service,Newsletter}

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({text} ) => {
+const Button = ({text,textColor,bgColor} ) => {
   return (
     <>
-    <button className='bg-primary font-nunito text-lg font-black text-white px-11 py-4 rounded-xl w-max'>{text}</button>
+    <button className={`${bgColor} font-nunito text-lg font-black ${textColor} px-11 py-4 rounded-xl w-max`}>{text}</button>
     </>
   )
 }

@@ -14,7 +14,10 @@ const Service = ({text,order,image}) => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
             ut non ac habitant.
           </p>
-          <Button text="Learn More" />
+          <Button text="Learn More"
+          textColor='text-white'
+          bgColor='bg-primary'
+          />
         </div>
 
         <div className={`mt-16  flex items-center justify-center md:mt-0 order-${order}`}>
