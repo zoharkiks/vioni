@@ -15,15 +15,15 @@ const Services = () => {
       <div className=" space-y-32 flex flex-col mt-24 lg:mt-48 mb-28">
 
         <Service text='World-Class Ecosystem'
-        order='first'
+        order='order-first'
         image={images.feature1.src} />
 
 <Service text='7-Days Free Trial Access'
-        order='last'
+        order='order-last'
         image={images.feature2.src} />
 
 <Service text='Track Every Money Output'
-        order='first'
+        order='order-first'
         image={images.feature3.src} />
          
       </div>

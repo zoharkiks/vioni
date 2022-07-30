@@ -20,7 +20,7 @@ const Service = ({text,order,image}) => {
           />
         </div>
 
-        <div className={`mt-16  flex items-center justify-center md:mt-0 order-${order}`}>
+        <div className={`mt-16  flex items-center justify-center md:mt-0 ${order}`}>
           <img
             className=" w-full object-contain "
             src={image}
